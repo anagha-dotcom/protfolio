@@ -62,6 +62,7 @@ footer{
 footer p{
     color: azure;
 }
+@media (max-width:768px) {
 .about-text,.about-image,.about-me,#countinfo{
     margin: 0;
     padding: 10px;
@@ -73,5 +74,7 @@ footer p{
 .about-img img {
     width: 50%;
     height : auto;
-    margin : 10px auto;
+    margin : 10px 
+}
+}auto;
 }
