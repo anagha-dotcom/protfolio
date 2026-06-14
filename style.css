@@ -24,19 +24,21 @@ header p{
 }
 #about{
     display: flex;
-    gap:75px;
+    flex-direction: row;
+    gap: 100px;
 }
 .about-text{
     padding-right: 30px;
     text-align: center;
     margin-top: 150px;
-    margin-left: 175px;
+    margin-left: 200px;
 }
 .about-image{
     margin-top: 30px;
     margin-bottom: 30px;
-    margin-right: 100px; 
-    margin-left: 150px;
+    margin-left:100px;
+    margin-right: 50px;
+   
 }
 .about-me {
     text-align: center;
@@ -62,8 +64,9 @@ footer{
 footer p{
     color: azure;
 }
-@media (max-width:768px) {
-.about-text,.about-image,.about-me,#countinfo{
+@media (max-width:768px)
+ {
+.about-text,.about-image,.about-me,#continfo{
     margin: 0;
     padding: 10px;
     text-align: center;
@@ -71,10 +74,9 @@ footer p{
 #about{
     flex-direction:column;
 }
-.about-img img {
+.about-imgage img {
     width: 50%;
     height : auto;
-    margin : 10px 
+    margin : 10px auto;
 }
-}auto;
 }
