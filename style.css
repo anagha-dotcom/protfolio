@@ -49,8 +49,9 @@ header p{
 .about-me p{
     color: #8b505C;
     text-align: center;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin: auto;
+    max-width: 900px;
+    padding: 0 20px;
 }
 #continfo{
     background-color: #F3C3C5;
