@@ -7,30 +7,41 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section id="my profile">
     <header>
-    <h1>My Portfolio</h1>
-    <p>Welcome to my portfolio page.I am a beginner web developer passionate about learning web development.Here,you can explore about my Skills,interset and my projects.</p>
+        <nav>
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Project">Project</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
     </header>
     </section>
 
-    <section ID="about">
-    <div class="about-text">
+    <section  class="Home" id="Home">
+    <h1>My Portfolio</h1>
+    <p>Welcome to my portfolio page.I am a beginner web developer passionate about learning web development.Here,you can explore about my Skills,interset and my projects.</p>
+    </section>
+
+    <section class="About" id="About">
+    <div class="about-row">
+    <div id="About-text">
     <h2>ANAGHA P V</h2>
     <p>"Driven by questions,Inspired by learning,Ready to Build!"</p>
     <P>"Turning curiosity into knowledge, and knowledge into creation."</P>
     </div>
-    <div class="about-image" >
-    <img src="image.png" alt="My Photo" >
+    <div id="About-image" >
+    <img src="image.png" alt="My Photo"  width="400px" height="auto">
     </div>
-    </section>
-    
-    <section class="about-me">
+    </div>
+    <div id="About-me" >
     <h2>About Me</h2>
     <p>Hello! I build simple web pages using HTML,CSS and Javascript.I am a Btech Computer Science Student passionate about programming and web development.I enjoy learning new skills in Computer Science to improve my knowledge and creativity. </p>
+    </div>
     </section>
 
-    <section>
+    <section class="Project" id="Project">
     <h2>Projects</h2>
     <ul>
         <article>
@@ -45,7 +56,7 @@
     </ul>
     </section>
 
-    <section>
+    <section class="Skills" id="Skills">
     <h2>Skills</h2>
     <ol>
         <li>HTML</li>
@@ -58,7 +69,7 @@
     </ol>
     </section>
 
-    <section id="continfo">
+    <section class="continfo" id="Contact">
      <h2>Contact</h2>
      <form>
         <label for="name">Name:</label><br>

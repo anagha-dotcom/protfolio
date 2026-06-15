@@ -1,83 +1,103 @@
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content :center;
+    gap: 50px;
+    padding: 0;
+    margin:0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+nav a{
+    text-decoration : none;
+    color: azure;
+}
 header{
     background-color: #7d234a;
-    text-align: center;
-    padding: 5px;
+    padding: 20px;
 }
-
+.Home {
+    background-color : #F3C3C5;
+    padding: 20px;
+    margin: 0;
+}
+.Home h1{
+    text-align: left;
+    color: #7d2348;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.Home p{
+    text-align: center;
+}
 body{
     margin: 0;
     padding: 0;
     background-color: #F9E6EC;
-    color:  #8b505C;;
+     color: #8b505C;
 }
-h2{
-    color:  #7D2348;
+body h2{
+    color:  #7D2348;;
 }
-p{
-    color:   #8b505C;
-}
-header h1{
-     color: azure;
-}
-header p{
-    color:#F3C3C5;
-}
-#about{
+.about-row {
     display: flex;
     flex-direction: row;
     gap: 100px;
 }
-.about-text{
+#About-text{
     padding-right: 30px;
     text-align: center;
     margin-top: 150px;
     margin-left: 200px;
 }
-.about-image{
+#About-image{
     margin-top: 30px;
     margin-bottom: 30px;
     margin-left:100px;
-    margin-right: 50px;
-   
+    margin-right: 50px; 
 }
-.about-me {
+#About-me {
     text-align: center;
 }
-.about-me h2{
+#About-me h2{
     color: #7D2348;
 }
-.about-me p{
+#About-me p{
     color: #8b505C;
     text-align: center;
     margin: auto;
     max-width: 900px;
     padding: 0 20px;
 }
-#continfo{
+
+.continfo{
     background-color: #F3C3C5;
-    color:  #8b505C;
+    color:  #7d234a;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 footer{
     background-color: #7D234a;
     padding: 5px;
     text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 footer p{
-    color: azure;
+     color: azure;
 }
 @media (max-width:768px)
  {
-.about-text,.about-image,.about-me,#continfo{
+#About-text,#About-image,#About-me,.continfo{
     margin: 0;
     padding: 10px;
     text-align: center;
 }
-#about{
+.about-row{
     flex-direction:column;
 }
-.about-imgage img {
+#About-image img {
     width: 50%;
     height : auto;
     margin : 10px auto;
 }
+}
+html{
+    scroll-behavior: smooth;
 }
