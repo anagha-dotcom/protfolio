@@ -32,7 +32,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: #F9E6EC;
-     color: #8b505C;
+    color: #8b505C;
 }
 body h2{
     color:  #7D2348;;
@@ -67,7 +67,6 @@ body h2{
     max-width: 900px;
     padding: 0 20px;
 }
-
 .continfo{
     background-color: #F3C3C5;
     color:  #7d234a;
@@ -82,9 +81,12 @@ footer{
 footer p{
      color: azure;
 }
+#menu-btn{
+    display: none;
+}
 @media (max-width:768px)
- {
-#About-text,#About-image,#About-me,.continfo{
+{
+#About-text,#About-image,#About-me,.continfo,header,.Home{
     margin: 0;
     padding: 10px;
     text-align: center;
@@ -97,6 +99,34 @@ footer p{
     height : auto;
     margin : 10px auto;
 }
+#menu-btn{
+    display: block;
+    margin-left: auto;
+    width: auto;
+    height: auto;
+    padding: 8px 12px;
+    color:  azure;
+    background-color: transparent;
+    border: none;
+}
+nav{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+#nav-links{
+    display: none;
+}
+#nav-links.active{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    padding: 10px;
+    background-color:  #7d234a;
+}
+
 }
 html{
     scroll-behavior: smooth;
